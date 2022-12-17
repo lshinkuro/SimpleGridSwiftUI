@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32E9D0C3294D90A00021CB2C /* SimpleGridSiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9D0C2294D90A00021CB2C /* SimpleGridSiftUIApp.swift */; };
+		32E9D0C5294D90A00021CB2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9D0C4294D90A00021CB2C /* ContentView.swift */; };
+		32E9D0C7294D90A00021CB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E9D0C6294D90A00021CB2C /* Assets.xcassets */; };
+		32E9D0CA294D90A00021CB2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E9D0C9294D90A00021CB2C /* Preview Assets.xcassets */; };
+		32E9D0D4294D90A10021CB2C /* SimpleGridSiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9D0D3294D90A10021CB2C /* SimpleGridSiftUITests.swift */; };
+		32E9D0DE294D90A10021CB2C /* SimpleGridSiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9D0DD294D90A10021CB2C /* SimpleGridSiftUIUITests.swift */; };
+		32E9D0E0294D90A10021CB2C /* SimpleGridSiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E9D0DF294D90A10021CB2C /* SimpleGridSiftUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E9D0D0294D90A10021CB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E9D0B7294D90A00021CB2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E9D0BE294D90A00021CB2C;
+			remoteInfo = SimpleGridSiftUI;
+		};
+		32E9D0DA294D90A10021CB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E9D0B7294D90A00021CB2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E9D0BE294D90A00021CB2C;
+			remoteInfo = SimpleGridSiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32E9D0BF294D90A00021CB2C /* SimpleGridSiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGridSiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E9D0C2294D90A00021CB2C /* SimpleGridSiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridSiftUIApp.swift; sourceTree = "<group>"; };
+		32E9D0C4294D90A00021CB2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		32E9D0C6294D90A00021CB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E9D0C9294D90A00021CB2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32E9D0CF294D90A10021CB2C /* SimpleGridSiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGridSiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E9D0D3294D90A10021CB2C /* SimpleGridSiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridSiftUITests.swift; sourceTree = "<group>"; };
+		32E9D0D9294D90A10021CB2C /* SimpleGridSiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGridSiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E9D0DD294D90A10021CB2C /* SimpleGridSiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridSiftUIUITests.swift; sourceTree = "<group>"; };
+		32E9D0DF294D90A10021CB2C /* SimpleGridSiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridSiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E9D0BC294D90A00021CB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E9D0CC294D90A10021CB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E9D0D6294D90A10021CB2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E9D0B6294D90A00021CB2C = {
+			isa = PBXGroup;
+			children = (
+				32E9D0C1294D90A00021CB2C /* SimpleGridSiftUI */,
+				32E9D0D2294D90A10021CB2C /* SimpleGridSiftUITests */,
+				32E9D0DC294D90A10021CB2C /* SimpleGridSiftUIUITests */,
+				32E9D0C0294D90A00021CB2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32E9D0C0294D90A00021CB2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E9D0BF294D90A00021CB2C /* SimpleGridSiftUI.app */,
+				32E9D0CF294D90A10021CB2C /* SimpleGridSiftUITests.xctest */,
+				32E9D0D9294D90A10021CB2C /* SimpleGridSiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E9D0C1294D90A00021CB2C /* SimpleGridSiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				32E9D0C2294D90A00021CB2C /* SimpleGridSiftUIApp.swift */,
+				32E9D0C4294D90A00021CB2C /* ContentView.swift */,
+				32E9D0C6294D90A00021CB2C /* Assets.xcassets */,
+				32E9D0C8294D90A00021CB2C /* Preview Content */,
+			);
+			path = SimpleGridSiftUI;
+			sourceTree = "<group>";
+		};
+		32E9D0C8294D90A00021CB2C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32E9D0C9294D90A00021CB2C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32E9D0D2294D90A10021CB2C /* SimpleGridSiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32E9D0D3294D90A10021CB2C /* SimpleGridSiftUITests.swift */,
+			);
+			path = SimpleGridSiftUITests;
+			sourceTree = "<group>";
+		};
+		32E9D0DC294D90A10021CB2C /* SimpleGridSiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32E9D0DD294D90A10021CB2C /* SimpleGridSiftUIUITests.swift */,
+				32E9D0DF294D90A10021CB2C /* SimpleGridSiftUIUITestsLaunchTests.swift */,
+			);
+			path = SimpleGridSiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E9D0BE294D90A00021CB2C /* SimpleGridSiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E9D0E3294D90A10021CB2C /* Build configuration list for PBXNativeTarget "SimpleGridSiftUI" */;
+			buildPhases = (
+				32E9D0BB294D90A00021CB2C /* Sources */,
+				32E9D0BC294D90A00021CB2C /* Frameworks */,
+				32E9D0BD294D90A00021CB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGridSiftUI;
+			productName = SimpleGridSiftUI;
+			productReference = 32E9D0BF294D90A00021CB2C /* SimpleGridSiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32E9D0CE294D90A10021CB2C /* SimpleGridSiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E9D0E6294D90A10021CB2C /* Build configuration list for PBXNativeTarget "SimpleGridSiftUITests" */;
+			buildPhases = (
+				32E9D0CB294D90A10021CB2C /* Sources */,
+				32E9D0CC294D90A10021CB2C /* Frameworks */,
+				32E9D0CD294D90A10021CB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E9D0D1294D90A10021CB2C /* PBXTargetDependency */,
+			);
+			name = SimpleGridSiftUITests;
+			productName = SimpleGridSiftUITests;
+			productReference = 32E9D0CF294D90A10021CB2C /* SimpleGridSiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32E9D0D8294D90A10021CB2C /* SimpleGridSiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E9D0E9294D90A10021CB2C /* Build configuration list for PBXNativeTarget "SimpleGridSiftUIUITests" */;
+			buildPhases = (
+				32E9D0D5294D90A10021CB2C /* Sources */,
+				32E9D0D6294D90A10021CB2C /* Frameworks */,
+				32E9D0D7294D90A10021CB2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E9D0DB294D90A10021CB2C /* PBXTargetDependency */,
+			);
+			name = SimpleGridSiftUIUITests;
+			productName = SimpleGridSiftUIUITests;
+			productReference = 32E9D0D9294D90A10021CB2C /* SimpleGridSiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E9D0B7294D90A00021CB2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					32E9D0BE294D90A00021CB2C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					32E9D0CE294D90A10021CB2C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 32E9D0BE294D90A00021CB2C;
+					};
+					32E9D0D8294D90A10021CB2C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 32E9D0BE294D90A00021CB2C;
+					};
+				};
+			};
+			buildConfigurationList = 32E9D0BA294D90A00021CB2C /* Build configuration list for PBXProject "SimpleGridSiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32E9D0B6294D90A00021CB2C;
+			productRefGroup = 32E9D0C0294D90A00021CB2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E9D0BE294D90A00021CB2C /* SimpleGridSiftUI */,
+				32E9D0CE294D90A10021CB2C /* SimpleGridSiftUITests */,
+				32E9D0D8294D90A10021CB2C /* SimpleGridSiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E9D0BD294D90A00021CB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E9D0CA294D90A00021CB2C /* Preview Assets.xcassets in Resources */,
+				32E9D0C7294D90A00021CB2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E9D0CD294D90A10021CB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E9D0D7294D90A10021CB2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E9D0BB294D90A00021CB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E9D0C5294D90A00021CB2C /* ContentView.swift in Sources */,
+				32E9D0C3294D90A00021CB2C /* SimpleGridSiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E9D0CB294D90A10021CB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E9D0D4294D90A10021CB2C /* SimpleGridSiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E9D0D5294D90A10021CB2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E9D0E0294D90A10021CB2C /* SimpleGridSiftUIUITestsLaunchTests.swift in Sources */,
+				32E9D0DE294D90A10021CB2C /* SimpleGridSiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32E9D0D1294D90A10021CB2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E9D0BE294D90A00021CB2C /* SimpleGridSiftUI */;
+			targetProxy = 32E9D0D0294D90A10021CB2C /* PBXContainerItemProxy */;
+		};
+		32E9D0DB294D90A10021CB2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E9D0BE294D90A00021CB2C /* SimpleGridSiftUI */;
+			targetProxy = 32E9D0DA294D90A10021CB2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32E9D0E1294D90A10021CB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32E9D0E2294D90A10021CB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E9D0E4294D90A10021CB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleGridSiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = YPD3TP4P79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ist.SimpleGridSiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32E9D0E5294D90A10021CB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleGridSiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = YPD3TP4P79;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ist.SimpleGridSiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32E9D0E7294D90A10021CB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPD3TP4P79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ist.SimpleGridSiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGridSiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleGridSiftUI";
+			};
+			name = Debug;
+		};
+		32E9D0E8294D90A10021CB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPD3TP4P79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ist.SimpleGridSiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGridSiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimpleGridSiftUI";
+			};
+			name = Release;
+		};
+		32E9D0EA294D90A10021CB2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPD3TP4P79;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ist.SimpleGridSiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleGridSiftUI;
+			};
+			name = Debug;
+		};
+		32E9D0EB294D90A10021CB2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YPD3TP4P79;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ist.SimpleGridSiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleGridSiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E9D0BA294D90A00021CB2C /* Build configuration list for PBXProject "SimpleGridSiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E9D0E1294D90A10021CB2C /* Debug */,
+				32E9D0E2294D90A10021CB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E9D0E3294D90A10021CB2C /* Build configuration list for PBXNativeTarget "SimpleGridSiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E9D0E4294D90A10021CB2C /* Debug */,
+				32E9D0E5294D90A10021CB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E9D0E6294D90A10021CB2C /* Build configuration list for PBXNativeTarget "SimpleGridSiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E9D0E7294D90A10021CB2C /* Debug */,
+				32E9D0E8294D90A10021CB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E9D0E9294D90A10021CB2C /* Build configuration list for PBXNativeTarget "SimpleGridSiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E9D0EA294D90A10021CB2C /* Debug */,
+				32E9D0EB294D90A10021CB2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E9D0B7294D90A00021CB2C /* Project object */;
+}
