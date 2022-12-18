@@ -7,7 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ScreenOne: View {
+    
+    @EnvironmentObject var router: TabRouter
+    
     var body: some View {
         VStack {
             Grid(alignment: .center, horizontalSpacing: 20, verticalSpacing: 20)  {
@@ -33,14 +36,20 @@ struct ContentView: View {
                     Rectangle().fill(.cyan).frame(height: 100).cornerRadius(25).gridCellUnsizedAxes(.vertical).gridCellColumns(2)
                 }
             }
+            Button {
+                router.changeTo(screen: .two)
+            } label: {
+                Text("Change Screen")
+            }
         }
         .padding()
+        .background(.mint)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ScreenOne().environmentObject(TabRouter())
     }
 }
 
@@ -50,9 +59,12 @@ struct RectangleView: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 25)
-                .fill(fillColor)
-                .frame(width: 100, height: 100)
+            withAnimation(.easeInOut(duration: 2.0)) {
+                RoundedRectangle(cornerRadius: 25)
+                    .fill(fillColor)
+                    .frame(width: 100, height: 100)
+            }
+    
             Text(randomString(length:1)).font(.title).fontWeight(.bold).foregroundColor(Color.random)
         }
        
