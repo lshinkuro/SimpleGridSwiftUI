@@ -44,6 +44,7 @@ struct SimpleGridSiftUIApp: App {
                               
                     }
                 ScreenThree()
+                    
                     .tag(Screen.three)
                     .environmentObject(router)
                     .tabItem {
@@ -71,6 +72,8 @@ struct SimpleGridSiftUIApp: App {
                     }
                 
             }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar(.hidden, for: .navigationBar)
         }
     }
 }
